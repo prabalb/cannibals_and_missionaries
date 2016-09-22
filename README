@@ -1,0 +1,13 @@
+Source files - cannMiss.h, cannMiss.cpp, main.cpp
+Makefile - makefile
+Executable - runProg
+How to compile - make
+How to run - ./runProg
+
+Note: The program asks the user to enter the number of cannibals and missionaries. It then returns the number of boat
+crossing needed if there is a solution, or prints 'No solution exists' if there is no solution.
+
+Findings: 
+(a) If the boat holds 2 people at max, then there is no solution for 4 or more couples. (couple: 1 cannibal + 1 missionary)
+(b) However, there does exist solutions for 8 or more than 8 people, if the missionaries outnumber the cannibals in the
+    intial configuration. For example, an initial configuration of <cannibals = 4, missionaries = 5, boat at left> has a solution.
